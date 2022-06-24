@@ -1,0 +1,16 @@
+C:\AcmeProject\bin\Release\net5.0\AcmeProject.exe
+C:\AcmeProject\bin\Release\net5.0\AcmeProject.deps.json
+C:\AcmeProject\bin\Release\net5.0\AcmeProject.runtimeconfig.json
+C:\AcmeProject\bin\Release\net5.0\AcmeProject.runtimeconfig.dev.json
+C:\AcmeProject\bin\Release\net5.0\AcmeProject.dll
+C:\AcmeProject\bin\Release\net5.0\AcmeProject.pdb
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.csproj.AssemblyReference.cache
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.AssemblyInfoInputs.cache
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.AssemblyInfo.cs
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.csproj.CoreCompileInputs.cache
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.dll
+C:\AcmeProject\obj\Release\net5.0\refint\AcmeProject.dll
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.pdb
+C:\AcmeProject\obj\Release\net5.0\AcmeProject.genruntimeconfig.cache
+C:\AcmeProject\obj\Release\net5.0\ref\AcmeProject.dll

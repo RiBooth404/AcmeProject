@@ -1,0 +1,5 @@
+C:\AcmeProject\bin\Release\net5.0\publish\AcmeProject.exe
+C:\AcmeProject\bin\Release\net5.0\publish\AcmeProject.dll
+C:\AcmeProject\bin\Release\net5.0\publish\AcmeProject.deps.json
+C:\AcmeProject\bin\Release\net5.0\publish\AcmeProject.runtimeconfig.json
+C:\AcmeProject\bin\Release\net5.0\publish\AcmeProject.pdb
