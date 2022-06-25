@@ -13,7 +13,20 @@ namespace AcmeProject.Model
 
         public override string ToString()
         {
-            string answer = $"{Name}={(Days)Days}";
+            string[] schedules = new String[WorkingSchedule.Count];
+            int j = 0;
+            BitArray bits = new BitArray(new[] { (int)this.Days });
+            for (int i = 0; i < 7; i++)
+            {
+                if (bits[i])
+                {
+                    Days thisDay = (Days)Math.Pow(2, i);
+                    schedules[j] = $"{thisDay}{this.WorkingSchedule[thisDay][0]}-{this.WorkingSchedule[thisDay][1]}";
+                    j++;
+                }
+            }
+            string schedule = String.Join(",", schedules);
+            string answer = $"{Name}={schedule}";
             return answer;
         }
         public int CompareSchedule(Employee employee)
@@ -34,7 +47,7 @@ namespace AcmeProject.Model
 
             return occurrences;
         }
-        
+
         public static List<string> CompareEmployeesSchedule(List<Employee> employees)
         {
             List<string> compareResult = new List<string>();
@@ -46,6 +59,7 @@ namespace AcmeProject.Model
             }
             return compareResult;
         }
+      
     }
 
 }

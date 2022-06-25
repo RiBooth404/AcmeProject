@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AcmeProject\\AcmeProject.csproj": {}
+    "C:\\Users\\X-ric\\OneDrive\\Escritorio\\REPOS\\vscode\\AcmeProject\\AcmeProject.csproj": {}
   },
   "projects": {
-    "C:\\AcmeProject\\AcmeProject.csproj": {
+    "C:\\Users\\X-ric\\OneDrive\\Escritorio\\REPOS\\vscode\\AcmeProject\\AcmeProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AcmeProject\\AcmeProject.csproj",
+        "projectUniqueName": "C:\\Users\\X-ric\\OneDrive\\Escritorio\\REPOS\\vscode\\AcmeProject\\AcmeProject.csproj",
         "projectName": "AcmeProject",
-        "projectPath": "C:\\AcmeProject\\AcmeProject.csproj",
-        "packagesPath": "C:\\Users\\000194655\\.nuget\\packages\\",
-        "outputPath": "C:\\AcmeProject\\obj\\",
+        "projectPath": "C:\\Users\\X-ric\\OneDrive\\Escritorio\\REPOS\\vscode\\AcmeProject\\AcmeProject.csproj",
+        "packagesPath": "C:\\Users\\X-ric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\X-ric\\OneDrive\\Escritorio\\REPOS\\vscode\\AcmeProject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\000194655\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\X-ric\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +37,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

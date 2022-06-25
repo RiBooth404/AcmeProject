@@ -11,15 +11,26 @@ namespace AcmeProject
     {
         static void Main(string[] args)
         {
-            String input = args[0];
-            List<Employee> eList=new List<Employee>();
+            string input = "";
+
+            if (args.Length > 0)
+            {
+                input = args[0];
+            }
+            else
+            {
+                Console.WriteLine("Please enter path of the file that containts Employees schedule data.");
+                Console.Write("Path:");
+                input = Console.ReadLine();
+            }
+            List<Employee> eList = new List<Employee>();
             bool incomplete = true;
             while (incomplete)
             {
                 try
                 {
                     eList = Wrapper.TextFileToEmployee(input);
-                    incomplete=false;
+                    incomplete = false;
                 }
                 catch (Exception e)
                 {
